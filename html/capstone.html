@@ -1,0 +1,172 @@
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./../css/alts.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <style>
+      input {
+        width: 750px;
+        padding: 10px;
+        padding-left: 40px; /* Adjust padding to make space for the icon */
+        font-size: 16px;
+        background-image: url("./../photos/search.svg"); /* Replace with your icon URL */
+        background-position: 10px center;
+        background-repeat: no-repeat;
+        background-size: 20px; /* Adjust size based on icon dimensions */
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div><h1>uptree</h1></div>
+      <div>
+        <input type="text" placeholder="" />
+      </div>
+      <p style="width: 20vh;">+ create uptree</p>
+      <img src="./../photos/bell.svg" alt="" />
+      <div class="profile">
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            border-right: 1px solid white;
+            margin: 0;
+            padding-right: 10px;
+          "
+        >
+          <img
+            src="./../photos/thumbs-up.svg"
+            alt=""
+            style="width: 15px; height: auto"
+          />
+          <p style="font-size: 14px">1120</p>
+        </div>
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            align-items: center;
+            margin: 0;
+          "
+        >
+          <img
+            src="./../photos/image-avatar.png"
+            alt=""
+            style="width: 20px; height: auto"
+          />
+          <p style="color: white; font-size: 12px">Favour</p>
+        </div>
+      </div>
+    </header>
+    <aside>
+      <div class="aside-div">
+        <div><h1>My Dashboard</h1></div>
+        <div>
+          <button class="home-btn">
+            <img
+              src="./../photos/home.svg"
+              alt=""
+              style="width: 15px; height: auto; padding-right: 10px"
+            />Home
+          </button>
+        </div>
+        <div>
+          <button class="article-btn">
+            <img
+              src="./../photos/rss.svg"
+              alt=""
+              style="width: 15px; height: auto; padding-right: 10px"
+            />Articles
+          </button>
+        </div>
+        <div>
+          <button class="play-btn">
+            <img
+              src="./../photos/play-circle.svg"
+              alt=""
+              style="width: 15px; height: auto; padding-right: 10px"
+            />videos
+          </button>
+        </div>
+        <div>
+          <button class="thumbs-up-btn">
+            <img
+              src="./../photos/thumbs-up.svg"
+              alt=""
+              style="width: 15px; height: auto; padding-right: 10px"
+            />My Likes
+          </button>
+        </div>
+        <div>
+          <button class="bookmark-btn">
+            <img
+              src="./../photos/bookmark (1).svg"
+              alt=""
+              style="width: 15px; height: auto; padding-right: 10px"
+            />Bookmarks
+          </button>
+        </div>
+        <div>
+          <button class="tag-btn">
+            <img
+              src="./../photos/tag.svg"
+              alt=""
+              style="width: 15px; height: auto; padding-right: 10px"
+            />My Tags
+          </button>
+        </div>
+      </div>
+    </aside>
+    <section>
+      <div class="sect-div">
+        <div class="sect-1">
+          <div class="edit-profile-div">
+            <div style="border-bottom: 2px solid black; margin-right: 20px">
+              <h3>Profile</h3>
+            </div>
+            <div style="display: flex; flex-direction: row; gap: 30px;">
+              <div style="display: flex; flex-direction: column; gap: 15px">
+                <div>
+                  <img src="./../photos/image-avatar.png" alt="" width="65%" />
+                </div>
+                <div>
+                  <button>Edit Profile</button>
+                </div>
+              </div>
+              <div style="margin-top: 15px;">
+                <button class="users-btn">
+                  <img
+                    src="./../photos/users (1).svg"
+                    alt=""
+                    style="width: 15px; height: auto; padding-right: 10px"
+                  />Followers
+                </button>
+              </div>
+              <div style="margin-top: 15px;">
+                <button class="user-check-btn">
+                  <img
+                    src="./../photos/user-check.svg"
+                    alt=""
+                    style="width: 15px; height: auto; padding-right: 10px"
+                  />Following
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sect-2"></div>
+        <div class="sect-3"></div>
+      </div>
+    </section>
+  </body>
+</html>
